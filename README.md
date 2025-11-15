@@ -9,6 +9,8 @@
 [![License](https://img.shields.io/badge/License-MIT-red)](./LICENSE)
 [![Npm version](https://img.shields.io/badge/npm-v1.0.0-blue)](https://www.npmjs.com)
 
+</div>
+
 # Bsa Addons Components Documentation
 
 ## 🚀 Overview
