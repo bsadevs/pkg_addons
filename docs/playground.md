@@ -1,4 +1,6 @@
-# 🎨 Component Playground
+# Bsa Addons Components Documentation
+
+## 🎨 Component Playground
 
 This is a development playground to test and preview all **BSA Addons** components.
 

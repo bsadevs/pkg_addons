@@ -1,4 +1,4 @@
-# Bsa Addons Setup & Development
+# Bsa Addons Components Documentation
 
 ## 🔧 Setup
 
@@ -14,11 +14,11 @@ npm install vue primevue primeicons tailwindcss
 // main.ts
 import { createApp } from 'vue';
 import App from './App.vue';
-import BsaAddons from '@bsa/addons';
+import BsaAddons from '@bsasolutions/addons';
 import PrimeVue from 'primevue/config';
 
 // Import styles
-import '@bsa/addons/styles';
+import '@bsasolutions/addons/styles';
 import 'primevue/resources/themes/lara-light-blue/theme.css';
 import 'primeicons/primeicons.css';
 
@@ -35,7 +35,11 @@ app.mount('#app');
 ```javascript
 // tailwind.config.js
 export default {
-    content: ['./index.html', './src/**/*.{vue,js,ts,jsx,tsx}', './node_modules/@bsa/addons/**/*.{vue,js,ts,jsx,tsx}'],
+    content: [
+        './index.html',
+        './src/**/*.{vue,js,ts,jsx,tsx}',
+        './node_modules/@bsasolutions/addons/**/*.{vue,js,ts,jsx,tsx}',
+    ],
     theme: {
         extend: {},
     },

@@ -1,3 +1,3 @@
 # Bsa Addons Components Documentation
 
-## 🧩 Composables
+### 🧩 Utils
